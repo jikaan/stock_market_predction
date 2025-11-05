@@ -11,8 +11,8 @@ from sklearn.metrics import mean_squared_error,r2_score
 from sklearn.metrics import mean_absolute_error,r2_score
 
 
-data = pd.read_csv(r"C:\Users\SAMAY\Desktop\ml\COALINDIA.csv")
-df = pd.read_csv(r"C:\Users\SAMAY\Desktop\ml\COALINDIA.csv")
+data = pd.read_csv(r"C:\Users\data\COALINDIA.csv")
+df = pd.read_csv(r"C:\Users\data\COALINDIA.csv")
 features = ['Open' , 'High' , 'Low' , 'Volume']
 target = ['Close']
 X = df[features]
